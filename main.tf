@@ -3,7 +3,7 @@ resource "google_dialogflow_cx_agent" "full_agent" {
   project = "airline1-sabre-wolverine"
 
   display_name               = "dialogflowcx-agent"
-  location                   = "us-central1"
+  location                   = "us-central1-dialogflow"
   default_language_code      = "en"
   supported_language_codes   = ["fr", "de", "es"]
   time_zone                  = "America/New_York"
