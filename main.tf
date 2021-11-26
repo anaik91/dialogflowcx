@@ -1,6 +1,6 @@
 
 resource "google_dialogflow_cx_agent" "full_agent" {
-  project = "ashwinknaik-314910"
+  project = "airline1-sabre-wolverine"
 
   display_name               = "dialogflowcx-agent"
   location                   = "global"
