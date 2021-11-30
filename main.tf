@@ -14,5 +14,7 @@ resource "google_dialogflow_cx_agent" "full_agent" {
   speech_to_text_settings {
     enable_speech_adaptation = true
   }
+  
+  security_settings = "projects/<Project ID>/locations/<Location ID>/securitySettings/<Security Settings ID>"
 
 }
